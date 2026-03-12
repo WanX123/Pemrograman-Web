@@ -1,3 +1,3 @@
 Output:
 
-<img src="output-tugas1.png" />
+<img src="output-tugaske1.png" />
