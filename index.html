@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daftar Riwayat Hidup - Norman Dwi Sulistiawan</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/style.css" />
+</head>
+
+<body>
+    <div class="cv-container">
+        <!-- Sidebar / Header Area -->
+        <aside class="sidebar">
+            <div class="profile-pic-container">
+                <img src="assets/profile_picture.png" alt="Profile Picture Placeholder" class="profile-pic">
+            </div>
+
+            <div class="profile-header">
+                <h1>Norman Dwi Sulistiawan</h1>
+                <p class="subtitle">ITATS Student</p>
+            </div>
+
+            <div class="contact-info section">
+                <h2><i class="fa-solid fa-address-book"></i> Kontak</h2>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> <span>0851-7964-0057</span></li>
+                    <li><i class="fa-solid fa-envelope"></i> <span>wawannorman@gmail.com</span></li>
+                    <li><i class="fa-solid fa-location-dot"></i> <span>Sidoarjo, Jawa Timur</span></li>
+                </ul>
+            </div>
+
+            <div class="social-links section">
+                <h2><i class="fa-solid fa-hashtag"></i> Social Media</h2>
+                <div class="social-icons">
+                    <a href="https://instagram.com/norman_wawan" target="_blank" class="social-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/WanX123" target="_blank" class="social-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <h1 class="page-title">DAFTAR RIWAYAT HIDUP</h1>
+
+            <section class="section card">
+                <h2><i class="fa-solid fa-user"></i> Data Pribadi</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="label">Nama Lengkap</span>
+                        <span class="value">Norman Dwi Sulistiawan</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Jenis Kelamin</span>
+                        <span class="value">Laki-Laki</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">NPM</span>
+                        <span class="value">06.2024.1.07807</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Agama</span>
+                        <span class="value">Islam</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section card">
+                <h2><i class="fa-solid fa-graduation-cap"></i> Pendidikan</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024 - Sekarang</div>
+                        <div class="timeline-content">
+                            <h3>Institut Teknologi Adhi Tama Surabaya (ITATS)</h3>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2021 - 2024</div>
+                        <div class="timeline-content">
+                            <h3>SMKN 1 Jabon</h3>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2018 - 2021</div>
+                        <div class="timeline-content">
+                            <h3>SMPN 1 Wonoayu</h3>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2012 - 2018</div>
+                        <div class="timeline-content">
+                            <h3>SDN Grabagan</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section card">
+                <h2><i class="fa-solid fa-bolt"></i> Skills & Keahlian</h2>
+                <div class="skills-grid">
+                    <div class="skill-badge">
+                        <i class="fa-solid fa-pen-nib"></i> UI/UX Design
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-solid fa-video"></i> Video Editing
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-solid fa-network-wired"></i> Networking
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-solid fa-code"></i> C++
+                    </div>
+                    <div class="skill-badge">
+                        <i class="fa-brands fa-java"></i> Java
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        console.log("Selamat datang di Daftar Riwayat Hidup Norman Dwi Sulistiawan!");
+
+        // Simple subtle animation for cards on load
+        document.addEventListener('DOMContentLoaded', () => {
+            const cards = document.querySelectorAll('.card');
+            cards.forEach((card, index) => {
+                setTimeout(() => {
+                    card.classList.add('visible');
+                }, index * 150);
+            });
+        });
+    </script>
+</body>
+
+</html>
